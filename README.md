@@ -14,7 +14,7 @@ Before you can make requests to the API, you need to generate a secure Reseller 
 4. Scroll down to the **API Access** section and click **Generate API Key**.
 
 <!-- SCREENSHOT PLACEHOLDER: Insert screenshot of the Workspace Dashboard showing the "Generate API Key" button and the API Access section here -->
-![Where to get your API Key](YOUR_SCREENSHOT_LINK_HERE.png)
+![Where to get your API Key](https://github.com/RLBmods/Reseller-Bot/blob/main/resellerapi.png)
 
 > **⚠️ Security Warning:** Treat your API Key like a password. Never share it publicly, commit it to GitHub, or expose it in client-side code (like frontend JavaScript). All API requests should be made securely from your backend server.
 
