@@ -4,7 +4,7 @@ Welcome to the **RLBmods Reseller API**! This API allows approved resellers to p
 
 ---
 
-## 🔑 1. Getting Your API Key
+## 🔑 1.1 Getting Your API Key
 
 Before you can make requests to the API, you need to generate a secure Reseller API Key from your workspace dashboard.
 
@@ -13,12 +13,22 @@ Before you can make requests to the API, you need to generate a secure Reseller 
 3. Select the Workspace you want to use.
 4. Scroll down to the **API Access** section and click **Generate API Key**.
 
-<!-- SCREENSHOT PLACEHOLDER: Insert screenshot of the Workspace Dashboard showing the "Generate API Key" button and the API Access section here -->
 ![Where to get your API Key](https://github.com/RLBmods/Reseller-Bot/blob/main/resellerapi.png)
 
 > **⚠️ Security Warning:** Treat your API Key like a password. Never share it publicly, commit it to GitHub, or expose it in client-side code (like frontend JavaScript). All API requests should be made securely from your backend server.
 
 ---
+
+## 1.2 Create .env file
+
+To ensure that the bot works create a .env file with these parameters
+
+```text
+DISCORD_BOT_TOKEN=
+RLB_API_KEY=Reseller api key here
+ADMIN_ROLE_ID=
+ALLOWED_GUILD_ID=
+```
 
 ## 🌐 2. Base URL & Authentication
 
